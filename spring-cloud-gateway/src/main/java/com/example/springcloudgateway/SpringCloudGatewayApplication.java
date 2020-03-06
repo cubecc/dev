@@ -24,8 +24,8 @@ public class SpringCloudGatewayApplication {
         return new BCryptPasswordEncoder();
     }
 
-    private String clientName="test";
-    private String clientSecret="ccc";
+    private String clientName="name";
+    private String clientSecret="password";
     
     @Bean
     public SecurityWebFilterChain securitygWebFilterChain(ServerHttpSecurity http) {

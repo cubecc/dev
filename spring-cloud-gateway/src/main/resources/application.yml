@@ -4,7 +4,7 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: neo_route
-        uri: http://www.ityouknow.com
+      - id: my_route
+        uri: http://www.google.com
         predicates:
         - Path=/spring-cloud
